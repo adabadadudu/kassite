@@ -7,12 +7,12 @@
 ![draw](https://img.shields.io/github/license/kassite-lang/kassite)
 [![Gitter chat](https://badges.gitter.im/kassite-lang/community.png)](https://gitter.im/kassite-lang/community)
 ![badge](https://tokei.rs/b1/github/kassite-lang/kassite)
-
 ![draw](https://badgen.net/github/tag/kassite-lang/kassite)
 ![draw](https://badgen.net/github/stars/kassite-lang/kassite)
 ![draw](https://badgen.net/github/contributors/kassite-lang/kassite)
 [![Github all releases](https://img.shields.io/github/downloads/kassite-lang/kassite/total.svg)](https://GitHub.com/hascal/hascal/releases/)
-
+![draw](https://img.shields.io/github/languages/code-size/kassite-lang/kassite?label=Code%20Size)
+![draw](https://img.shields.io/github/stars/kassite-lang/kassite?label=Stars&logo=github)
  </p>
  
 ## Features
