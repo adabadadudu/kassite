@@ -28,7 +28,26 @@ Kassite is a embeded scripting language, designed to be used in IoT projects.
 
 ## Examples
 > See Examples [Here](Examples.md)
-
+```
+// print all Fibonacci numbers up to c
+func printfibs(c) {
+  i = 0;
+  j = 1;
+  while(i<c) { 
+    print(i); 
+    i += j; 
+    swap(i, j);
+  }
+}
+// recursively find Fibonacci number at index n:
+func fib(n) {
+    if (n < 2) {
+        return n;
+    }
+    return fib(n-1) + fib(n-2);
+}
+printfibs(10);
+```
 # Build From Source
 Prequiste :
 - A C++ Compiler(should support `c++17` standard,gcc 8.1 is recommended)
