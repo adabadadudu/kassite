@@ -30,7 +30,7 @@ Kassite is a embeded scripting language, designed to be used in IoT projects.
 > See Examples [Here](Examples.md)
 
 # Build From Source
-Prequistes :
+Prequiste :
 - A C++ Compiler(should support `c++17` standard,gcc 8.1 is recommended)
 
 for build :
