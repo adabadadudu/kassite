@@ -18,7 +18,7 @@ Values can currently have 11 different types: `null`, `int`, `float`, `vec3`, `f
 
 `userpointer`: A void* pointer. Similar to a function, a userpointer can be passed around or stored in collections, but not compared or converted.
 
-`string`: A mutable UTF8 character string supplied by underlying C++ std::string type. (some unicode doesn't work in the demo though because of the JavaScript interface)
+`string`: A mutable UTF8 character string supplied by underlying C++ std::string type.
 
 `array`: A collection of other values. An array must be homogeneous (all values of the same type) and cannot contain other collections, supplied by underlying C++ std::vector containing values contiguously and represented in the unboxed base type. Array data is acessed by integer index starting from 0.
 
