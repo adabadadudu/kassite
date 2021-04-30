@@ -1,5 +1,5 @@
 # Examples
-Complete examples there are in [examples directory](https://github.com/kassite-lang/kassite/main/blob/examples)
+Complete examples there are in [examples directory](https://github.com/kassite-lang/kassite/tree/main/examples)
 ### Hello World
 ```c#
 print("hello world");
