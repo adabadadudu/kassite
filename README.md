@@ -50,10 +50,10 @@ make install
 - [ ] Optimize interpreter for Arduino Boards
 
 ## About
-This project development by Kassite Team.
+This project development by **Kassite Team**.
 
-Copyright (c) 2021 Kassite Team, \
+Copyright (c) 2021 **Kassite Team**, \
 all rights reserved.
 
 ## License
-MIT
+***MIT***
