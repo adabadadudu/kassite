@@ -20,8 +20,9 @@ Kassite is a embeded scripting language, designed to be used in IoT projects.
 - Object-oriented
 - Support functional programming
 - Lightweight
-- Fast & Powerful
+- Fast & Powerful & Portable
 - Easy to embed
+- Inspired by C++,C#,Golang
 
 ## Documentation
 > See Documentation [Here](Documentation.md)
