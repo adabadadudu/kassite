@@ -1,5 +1,5 @@
 # The Kassite Programming Language
-Kassite is a embeded scripting language, designed to be used in IoT projects.
+**Kassite** is a embeded scripting language, designed to be used in IoT projects.
 
 <p align="center">
  
