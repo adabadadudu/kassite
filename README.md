@@ -3,7 +3,7 @@ Kassite is a embeded scripting language, designed to be used in IoT projects.
 
 <p align="center">
  
- ![draw](https://img.shields.io/github/last-commit/kassite-lang/kassite)
+![draw](https://img.shields.io/github/last-commit/kassite-lang/kassite)
 ![draw](https://img.shields.io/github/license/kassite-lang/kassite)
 [![Gitter chat](https://badges.gitter.im/kassite-lang/community.png)](https://gitter.im/kassite-lang/community)
 ![badge](https://tokei.rs/b1/github/kassite-lang/kassite)
