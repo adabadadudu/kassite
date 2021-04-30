@@ -1,5 +1,6 @@
 # The Kassite Programming Language
-An Embedded Scripting Programming Language for IoT &amp; Cloud Projects
+Kassite is a embeded scripting language, designed to be used in IoT projects.
+
 <p align="center">
  
  ![draw](https://img.shields.io/github/last-commit/kassite-lang/kassite)
@@ -13,3 +14,35 @@ An Embedded Scripting Programming Language for IoT &amp; Cloud Projects
 [![Github all releases](https://img.shields.io/github/downloads/kassite-lang/kassite/total.svg)](https://GitHub.com/hascal/hascal/releases/)
 
  </p>
+ 
+## Features
+- CrossPlatform(Linux,Windows,MacOS,iOS,...)
+- Object-oriented
+- Support functional programming
+- Lightweight
+- Fast & Powerful
+- Easy to embed
+
+# Build From Source
+Prequistes :
+- A C++ Compiler(most support 'c++17' standard,gcc 8.1 is recommended)
+
+for build :
+```
+make
+```
+
+for install(Linux):
+```
+make
+make install
+```
+
+## About
+This project development by Kassite Team.
+
+Copyright (c) 2021 Kassite Team,
+all rights reserved.
+
+## License
+MIT
