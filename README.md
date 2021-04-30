@@ -47,7 +47,7 @@ make install
 ## TODO
 - [ ] Create importing system
 - [ ] Write IoT modules
-- [ ] Optimaize interpreter for Arduino Boards
+- [ ] Optimize interpreter for Arduino Boards
 
 ## About
 This project development by Kassite Team.
