@@ -28,7 +28,7 @@ Kassite is a embeded scripting language, designed to be used in IoT projects.
 
 ## Examples
 > See Examples [Here](Examples.md)
-```
+```c#
 // print all Fibonacci numbers up to c
 func printfibs(c) {
   i = 0;
