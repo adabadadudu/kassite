@@ -41,7 +41,7 @@ make install
 ## About
 This project development by Kassite Team.
 
-Copyright (c) 2021 Kassite Team,
+Copyright (c) 2021 Kassite Team, \
 all rights reserved.
 
 ## License
