@@ -12,8 +12,8 @@
 ![draw](https://badgen.net/github/contributors/kassite-lang/kassite)
 [![Github all releases](https://img.shields.io/github/downloads/kassite-lang/kassite/total.svg)](https://GitHub.com/hascal/hascal/releases/)
 ![draw](https://img.shields.io/github/languages/code-size/kassite-lang/kassite?label=Code%20Size)
-![draw](https://img.shields.io/github/stars/kassite-lang/kassite?label=Stars&logo=github)
- </p>
+
+</p>
  
 ## Features
 - CrossPlatform(Linux,Windows,MacOS,iOS,...)
