@@ -226,21 +226,19 @@ In order to use a class, you need a `constructor`, which is the function to crea
 ```c#
 class person {
     var name;
-    var age;
     var hobby;
-    func person(n, a, h) {
+    func person(n, h) {
         name = n;
-        age = a;
         hobby = h;
     }
     func wouldLike(other) {
         return hobby == other.hobby;
     }
     func greet() {
-        print("Hey I'm " + name + ", age " + age + ", and my hobby is " + hobby);
+        print("Hey I'm " + name + ", and my hobby is " + hobby);
     }
 }
-var me = person("Hasan", 28, "programming");
+var me = person("Hasan", "programming");
 me.greet();
 
 print(me.wouldLike(person("You", 0, "programming")));
