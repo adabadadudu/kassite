@@ -208,7 +208,7 @@ i[i[69]] = "this is in i[\"nice\"]";
 ```
 
 ### Vec3
-Vec3 is a simple type intended to bring glm::vec3 into Kassite as a first class type. Since Kassite is designed for game engine integration, a native Vec3 is convenient. Vec3 is created with the `vec3()` function, individual members (x,y,z) are accessed with list acess.
+Vec3 is a simple type intended to bring glm::vec3 into Kassite as a first class type. Vec3 is created with the `vec3()` function, individual members (x,y,z) are accessed with list acess.
 
 ```c#
 v = vec3(1,2,3);
