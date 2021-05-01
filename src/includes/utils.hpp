@@ -1,3 +1,11 @@
+/* This file contains Kassite interpreter utils
+ * File version : 1.2.8
+ * THIS FILE IS A PART OF KASSITE LANGUAGE
+ * The Kassite Programming Language
+ * Copyright (c) 2021 Kassite Team,
+ * all rights reserved.
+ */
+
 #include <iostream>
 std::string SysPlatform()
 {

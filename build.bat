@@ -1,0 +1,1 @@
+g++ -std=c++2a -static -static-libgcc -static-libstdc++ src/Main.cpp -o kassite
