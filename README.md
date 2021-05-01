@@ -35,7 +35,7 @@ func fib(n) {
 }
 print(fib(12);
 ```
-# Build From Source
+## Build From Source
 Prequiste :
 - A C++ Compiler(should support `c++17` standard,gcc 8.1 is recommended)
 - Python 3.x
