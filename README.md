@@ -53,7 +53,6 @@ make install
 ## TODO
 - [ ] Create importing system
 - [ ] Write IoT modules
-- [x] Write a package manager
 - [ ] Optimize interpreter for Arduino Boards
 - [ ] Write Cloud modules
 
