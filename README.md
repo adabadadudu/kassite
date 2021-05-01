@@ -56,11 +56,6 @@ for build package manager :
 ```
 build-kpm.bat
 ```
-## TODO
-- [ ] Create importing system
-- [ ] Write IoT modules
-- [ ] Optimize interpreter for Arduino Boards
-- [ ] Write Cloud modules
 
 ## About
 This project development by **Kassite Team**.
