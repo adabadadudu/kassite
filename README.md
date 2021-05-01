@@ -56,6 +56,8 @@ for build package manager :
 ```
 build-kpm.bat
 ```
+## Community
+You can join to our community on gitter, [Here](https://gitter.im/kassite-lang/community).
 
 ## About
 This project development by **Kassite Team**.
