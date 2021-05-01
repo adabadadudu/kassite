@@ -67,7 +67,9 @@ make install
 ## TODO
 - [ ] Create importing system
 - [ ] Write IoT modules
+- [ ] Write a package manager
 - [ ] Optimize interpreter for Arduino Boards
+- [ ] Write Cloud modules
 
 ## About
 This project development by **Kassite Team**.
