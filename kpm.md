@@ -7,18 +7,21 @@ git clone https://github.com/kassite-lang/kassite.git
 cd kassite
 build-kpm.bat
 ```
+## Publish your package
+If you want to publish your Kassite package(s),fork [this]() repo and add your package as single-file,and send a pull request for us.
 
-## Install Package
+## CLI
+### Install Package
 ```
 kpm install <package name>
 ```
 
-## Upgrade Package 
+### Upgrade Package 
 ```
 kpm upgrade <package name>
 ```
 
-## Uninstall Package(TODO)
+### Uninstall Package(TODO)
 ```
 kpm uninstall <package name>
 ```
