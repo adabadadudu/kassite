@@ -38,18 +38,24 @@ print(fib(12);
 # Build From Source
 Prequiste :
 - A C++ Compiler(should support `c++17` standard,gcc 8.1 is recommended)
+- Python 3.x
+- Pyinstaller
 
-for build :
+for build interpreter :
 ```
 make
 ```
 
-for install(Linux):
+for install interpreter(Linux):
 ```
 make
 make install
 ```
 
+for build package manager :
+```
+build-kpm.bat
+```
 ## TODO
 - [ ] Create importing system
 - [ ] Write IoT modules
