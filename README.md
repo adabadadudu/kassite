@@ -16,7 +16,7 @@
 </p>
  
 ## Features
-- CrossPlatform(Linux,Windows,MacOS,iOS,...)
+- CrossPlatform(Linux,Windows,MacOS,iOS,Android,Web)
 - Object-oriented
 - Support functional programming
 - Lightweight
