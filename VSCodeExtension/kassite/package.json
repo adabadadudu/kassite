@@ -1,0 +1,27 @@
+{
+    "name": "kassite",
+    "displayName": "Kassite VSCODE",
+    "description": "Syntax Highlighting for Kassite",
+    "publisher": "Kassite Team",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "kassite",
+            "aliases": ["Kassite", "kassite"],
+            "extensions": ["ks"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "kassite",
+            "scopeName": "source.kassite",
+            "path": "./syntaxes/kassite.tmLanguage.json"
+        }]
+    },
+    "repository": { "url": "https://github.com/kassite-lang/kassite"}
+}

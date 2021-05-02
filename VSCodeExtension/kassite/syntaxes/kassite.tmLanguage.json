@@ -1,0 +1,82 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Kassite",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#strings"
+		},		
+		{
+			"include": "#variables"
+		}		
+	],
+	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment.control.kassite",
+				"match": "//[^\\n]*\\n"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.kassite",
+				"match": "\\b(var|if|else|while|for|foreach|func|return|class)\\b"
+			}]
+		},
+		"constants": {
+			"patterns": [
+				{
+				"name": "constant.character",
+				"match": "(<|>|=|!|\\+|-|\\||&|/|\\*|%)"
+				},
+				{
+				"name": "constant.language",
+				"match": "\\b(true|false|null)\\b"
+				},
+				{
+				"name": "constant.numeric",
+				"match": "[0-9]"
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+				"name": "entity.name.function",
+				"match": "\\b(bool|int|float|string|vec3|array|list|dictionary|print|typeof|getline|length|find|erase|sqrt|pow|abs|reverse|replace|startswith|endswith|split|contains|pushback|popback|popfront|back|front|min|max|map|fold|swap|range|sort|toarry|tolist|identity|listindex|applyfunction|copy|sin|cos|tan|clock|timesince|getduration)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.kassite",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.kassite",
+					"match": "\\\\."
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+				"name": "variable",
+				"match": "\\b[a-zA-Z_]+[a-zA-Z0-9_]*\\b"
+				}
+			]
+		}		
+	},
+	"scopeName": "source.kassite"
+}
