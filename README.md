@@ -1,5 +1,5 @@
 # The Kassite Programming Language
-**Kassite** is a embedded scripting language, designed to be used in IoT & Cloud projects.
+**Kassite** is an embedded scripting language, designed to be used in IoT & Cloud projects.
 
 <p align="center">
  
