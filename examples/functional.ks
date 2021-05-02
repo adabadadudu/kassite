@@ -7,12 +7,3 @@ foreach(v; vals) {
     print();
   }
 }
-```
-
-```c#
-func sub1(n) { 
-  return n-1; 
-}
-foreach(i; map([1,2,3,4], sub1)) { 
-  print(i); 
-}
