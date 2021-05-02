@@ -19,5 +19,5 @@ kaserial
 ```c#
 baudrate = 9600
 myserial = KAserial(baudrate,"COM6")
-myserial.write("Hello World!);
+myserial.write("Hello World!");
 ```
