@@ -1,5 +1,5 @@
 /* The Main Program of Kassite Interpreter
- * File version : 1.0
+ * File version : 1.0.2
  * THIS FILE IS A PART OF KASSITE LANGUAGE
  * The Kassite Programming Language
  * Copyright (c) 2021 Kassite Team,
@@ -10,12 +10,13 @@
 #include "includes/Kassite.hpp"
 #include "includes/utils.hpp"
 #include "includes/repl.hpp"
+#include "includes/import.hpp"
 #include <fstream>
 
 // define kassite interpreter
 Kassite::KassiteInterpreter interpreter;
 //kassite version
-std::string ks_version = "1.0.1";
+std::string ks_version = "1.0.2";
 
 int main(int argc, char** argv) {
 	if (argc == 1) {
@@ -38,6 +39,7 @@ int main(int argc, char** argv) {
             }
             s.assign((std::istreambuf_iterator<char>(file)),
                 std::istreambuf_iterator<char>());
+            s = Kassite::GetModuleSources() + s ;
             return interpreter.evaluate(s);
         } else {
 			printf("Error: %s not found", argv[1]);
