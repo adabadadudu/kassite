@@ -3,4 +3,4 @@
 - [Package Manager](kpm.md)
 - [Import Modules](import.md)
 - [VSCODE Extension](vscode.md)
-
+- [Contributing Guide](CONTRIBUTING.md)
