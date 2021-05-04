@@ -17,7 +17,7 @@
 - Easy to embed
 - Inspired by C++,C#,Golang
 - Kassite Package Manager(kpm)
-
+- No dependency
 ## Examples
 ```c#
 // recursively find Fibonacci number at index n:
