@@ -1,7 +1,10 @@
-# Kassite Package Manager Documentation
+# Documentation --- Kassite Package Manager(KPM) 
 KPM is standard package manager for Kassite Programming Language.
 
 ## Build
+Prerequisites :
+- Python 3.x
+- Pyinstaller
 ```
 git clone https://github.com/kassite-lang/kassite.git
 cd kassite
