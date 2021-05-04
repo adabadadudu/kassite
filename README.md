@@ -37,7 +37,7 @@ print(fib(12);
 > See Documentation [Here](docs/Documentation.md)
 
 ## Build From Source
-Prequiste :
+Prerequisites :
 - A C++ Compiler(should support `c++17` standard,gcc 8.1 is recommended)
 - Python 3.x
 - Pyinstaller
