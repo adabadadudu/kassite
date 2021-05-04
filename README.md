@@ -9,15 +9,15 @@
 
 ## Features
 - CrossPlatform (Linux,Windows,MacOS,iOS,Android,Web)
-- Designed to be used in IoT & Cloud projects
+- Designed to be used in IoT & Cloud Projects
 - Object-oriented
-- Support functional programming
+- Support Functional Programming
 - Lightweight
 - Fast & Powerful & Portable
-- Easy to embed
+- Easy to Embed
 - Inspired by C++,C#,Golang
 - Kassite Package Manager(kpm)
-- No dependency
+- No Dependency
 ## Examples
 ```c#
 // recursively find Fibonacci number at index n:
