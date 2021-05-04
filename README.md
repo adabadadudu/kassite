@@ -32,9 +32,9 @@ func fib(n) {
 }
 print(fib(12);
 ```
-> See Other Examples [Here](Examples.md)
+> See Other Examples [Here](docs/Examples.md)
 ## Documentation
-> See Documentation [Here](Documentation.md)
+> See Documentation [Here](docs/Documentation.md)
 
 ## Build From Source
 Prequiste :
