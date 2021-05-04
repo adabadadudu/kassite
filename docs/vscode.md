@@ -1,4 +1,6 @@
 # Documentation --- VSCODE Extension
+![draw](https://raw.githubusercontent.com/kassite-lang/kassite/master/misc/screen-shot.PNG)
+ 
 first clone this repo with git :
 ```
 git clone https://github.com/kassite-lang/kassite.git
