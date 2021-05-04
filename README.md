@@ -65,4 +65,4 @@ Copyright (c) 2021 **Kassite Team**, \
 all rights reserved.
 
 ## License
-This project is licensed under the ***MIT***
+This project is licensed under the [***MIT***](https://github.com/kassite-lang/kassite/blob/master/LICENSE)
