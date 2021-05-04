@@ -1,4 +1,4 @@
-# Import Modules in Kassite
+# Documentation --- Import Modules
 if you want to add local modules to your script , create a file with name : 'mod.txt'
 next add your modules name(without file extension),see example :
 
