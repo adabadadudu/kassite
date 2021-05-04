@@ -65,4 +65,4 @@ Copyright (c) 2021 **Kassite Team**, \
 all rights reserved.
 
 ## License
-***MIT***
+This project is licensed under the ***MIT***
