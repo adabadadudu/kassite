@@ -7,6 +7,7 @@
 ![badge](https://tokei.rs/b1/github/kassite-lang/kassite)
 ![draw](https://img.shields.io/github/languages/code-size/kassite-lang/kassite?label=Code%20Size)
 
+## Features
 - CrossPlatform (Linux,Windows,MacOS,iOS,Android,Web)
 - Object-oriented
 - Support functional programming
@@ -16,12 +17,7 @@
 - Inspired by C++,C#,Golang
 - Kassite Package Manager(kpm)
 
-<p align="center">
- 
- ![draw](https://raw.githubusercontent.com/kassite-lang/kassite/master/misc/screen-shot.PNG)
- 
-</p>
-
+## Examples
 ```c#
 // recursively find Fibonacci number at index n:
 func fib(n) {
@@ -33,6 +29,7 @@ func fib(n) {
 print(fib(12);
 ```
 > See Other Examples [Here](docs/Examples.md)
+
 ## Documentation
 > See Documentation [Here](docs/Documentation.md)
 
