@@ -58,6 +58,9 @@ build-kpm.bat
 ## Community
 You can join to our community on gitter, [Here](https://gitter.im/kassite-lang/community).
 
+## Contributing Guide
+> See this [Page](docs/CONTRIBUTING.md)
+
 ## About
 This project development by **Kassite Team**.
 
