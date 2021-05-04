@@ -9,6 +9,7 @@
 
 ## Features
 - CrossPlatform (Linux,Windows,MacOS,iOS,Android,Web)
+- Designed to be used in IoT & Cloud projects
 - Object-oriented
 - Support functional programming
 - Lightweight
