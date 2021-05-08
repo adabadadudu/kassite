@@ -25,16 +25,7 @@
 #include <chrono>
 
 namespace Kassite {
-	using std::min;
-	using std::max;
-	using std::string;
-	using std::vector;
-	using std::variant;
-	using std::function;
-	using std::unordered_map;
-	using std::shared_ptr;
-	using std::make_shared;
-    using std::get;
+	using namespace std;
 	using namespace std::string_literals;
 
 #ifdef KASSITE_USE_32_BIT_NUMBERS
@@ -50,14 +41,14 @@ namespace Kassite {
 		double x;      
 #ifdef _MSC_VER
         // std::from_chars is amazing, but only works properly in MSVC
-		std::from_chars(token.data(), token.data() + token.size(), x);
+		from_chars(token.data(), token.data() + token.size(), x);
 #else
-		x = std::stod(token);
+		x = stod(token);
 #endif
 		return x;
 	}
 
-    struct KSException : public std::exception {
+    struct KSException : public exception {
         string wh;
         KSException(const string& w) : wh(w) {};
     };
@@ -75,7 +66,7 @@ namespace Kassite {
 	inline string stringformat(const char* format, ...) {
 		va_list args;
 		va_start(args, format);
-		std::unique_ptr<char[]> buf(new char[1000]);
+		unique_ptr<char[]> buf(new char[1000]);
 		vsprintf(buf.get(), format, args);
 		return string(buf.get());
 	}
@@ -336,7 +327,7 @@ namespace Kassite {
 	inline bool operator!=(vec3 const& v1, vec3 const& v2) {
 		return v1.x != v2.x || v1.y != v2.y || v1.z != v2.z;
 	}
-	inline std::ostream& operator<<(std::ostream& os, vec3 const& v) {
+	inline ostream& operator<<(std::ostream& os, vec3 const& v) {
 		return (os << v.x << ", " << v.y << ", " << v.z);
 	}
 
