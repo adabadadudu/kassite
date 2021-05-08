@@ -7,10 +7,10 @@
  */
 
 #define KASSITE_IMPL
-#include "includes/Kassite.hpp"
-#include "includes/utils.hpp"
-#include "includes/repl.hpp"
-#include "includes/import.hpp"
+#include "Kassite.hpp"
+#include "utils.hpp"
+#include "repl.hpp"
+#include "import.hpp"
 #include <fstream>
 
 // define kassite interpreter
